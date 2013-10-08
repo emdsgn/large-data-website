@@ -219,6 +219,10 @@ hr {
   border-color: inherit;
 }
 
+.searchbar {
+float: right;
+}
+
 @media only screen and (min-width: 27em) {
 
   .nav li {

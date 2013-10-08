@@ -22,6 +22,11 @@
     <p class="page-head {% if page.title %}{{page.title|downcase}}{% endif %}">{% if page.title %}{{page.title}}{% else %}not every colour survives{% endif %}</p>
   </header>
 
+  <div class="searchbar">
+    <label>Search</label>
+    <input type="search" placeholder="Search">
+  </div>
+
 {{content}}
 
   <footer class="footer">
