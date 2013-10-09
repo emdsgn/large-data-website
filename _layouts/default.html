@@ -2,7 +2,7 @@
 <html lang=en-ca>
 <head>
   <meta charset=utf-8>
-  <title>Tigers</title>
+  <title>{% if page.title %}{{page.title}} · {%endif%}Tigers{% if page.title == null %}{% endif %}</title>
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -10,36 +10,37 @@
   <link href="css/grid.css" rel="stylesheet">
 </head>
 <body>
- <header class="banner">
-    <nav class="nav-wrapper">
-      <ul class="nav nav-primary">
-        <li><a href="captain.html" class="nav-link nav-primary-link captain {% if page.url contains 'captain' %}nav-selected{% endif %}">Captain</a></li>
-        <li><a href="command.html" class="nav-link nav-primary-link command {% if page.url contains 'command' %}nav-selected{% endif %}">Command</a></li>
-        <li><a href="sciences.html" class="nav-link nav-primary-link sciences {% if page.url contains 'sciences' %}nav-selected{% endif %}">Sciences</a></li>
-        <li><a href="operations.html" class="nav-link nav-primary-link operations {% if page.url contains 'operations' %}nav-selected{% endif %}">Operations</a></li>
-      </ul>
-    </nav>
-    <p class="page-head {% if page.title %}{{page.title|downcase}}{% endif %}">{% if page.title %}{{page.title}}{% else %}not every colour survives{% endif %}</p>
-  </header>
 
-  <div class="searchbar">
-    <label>Search</label>
-    <input type="search" placeholder="Search">
-  </div>
+<header class="banner">
+  <nav class="nav-wrapper">
+    <ul class="nav nav-primary">
+      <li><a href="{{site.baseurl}}/" class="nav-link nav-primary-link captain {% if page.url contains 'index' %}nav-selected{% endif %}">Tigers</a></li>
+      <li><a href="{{site.baseurl}}/about-tigers/" class="nav-link nav-primary-link command {% if page.url contains 'about tigers' %}nav-selected{% endif %}">About Tigers</a></li>
+      <li><a href="{{site.baseurl}}/species/" class="nav-link nav-primary-link sciences {% if page.url contains 'species' %}nav-selected{% endif %}">Species</a></li>
+      <li><a href="{{site.baseurl}}/tigers-and-humans/" class="nav-link nav-primary-link operations {% if page.url contains 'tigers and humans' %}nav-selected{% endif %}">Tigers & Humans</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="searchbar">
+  <label>Search</label>
+  <input type="search" placeholder="Search">
+</div>
 
 {{content}}
 
-  <footer class="footer">
-    <p class="copyright">© 2013 Uniforms</p>
+<footer class="footer">
+  <p class="copyright">© 2013 Uniforms</p>
 
-    <nav>
-      <ul class="nav nav-secondary">
-        <li><a href="captain.html" class="nav-link">Captain</a></li>
-        <li><a href="command.html" class="nav-link">Command</a></li>
-        <li><a href="sciences.html" class="nav-link">Sciences</a></li>
-        <li><a href="operations.html" class="nav-link">Operations</a></li>
-      </ul>
-    </nav>
-  </footer>
+  <nav>
+    <ul class="nav nav-secondary">
+      <li><a href="{{site.baseurl}}/" class="nav-link">Tigers</a></li>
+      <li><a href="{{site.baseurl}}/about-tigers/" class="nav-link">About Tigers</a></li>
+      <li><a href="{{site.baseurl}}/species/" class="nav-link">Species</a></li>
+      <li><a href="{{site.baseurl}}/tigers-and-humans/" class="nav-link">Tigers & Humans</a></li>
+    </ul>
+  </nav>
+</footer>
+
 </body>
 </html>
