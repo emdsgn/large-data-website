@@ -13,11 +13,9 @@
 html {
   margin: 0;
   padding: 0;
-
   background-color: #FFF;
-
   color: #2b2b2b;
-  font: normal 100%/1.5 Georgia,serif;
+  font: normal 100%/1.4 Georgia,serif;
 }
 
 body {
@@ -37,10 +35,75 @@ float: left;
 .sidebar {
   background-color: #2b2b2b;
   position: fixed;
-  width: 10%;
+  width: 9%;
   display: block;
+  padding: 1em;
 }
 
-.sidebarnav {
+.sidebarnav li {
+  list-style-type: none;
+  padding-bottom: 0.5em;
+}
 
+.sidebarnav a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.sidebarnav a:hover,
+.sidebarnav a:focus,
+.sidebarnav a:active {
+  color: red;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 0.2em;
+}
+
+#wt {
+  background-color: #2b2b2b;
+  color: #FFF;
+  padding: 10em;
+}
+
+#titw {
+  background-color: #eee;
+  color: #2b2b2b;
+  padding: 10em;
+}
+
+#is,
+#fat {
+  background-color: #2b2b2b;
+  color: #FFF;
+  padding: 10em;
+}
+
+.nav-secondary {
+  float: right;
+}
+
+.nav-secondary li {
+  margin-left: 0.5em;
+  margin-right: 0;
+}
+
+.nav-secondary li:before {
+  content: "·";
+  left: -0.5em;
+  position: absolute;
+}
+
+.nav-secondary li:first-child:before {
+  display: none;
+}
+
+}
+
+.footer {
+  margin-top: 1em;
+  padding: 0.5em 8px 0;
+  border-top: 2px solid #ddd;
+  font-size: 0.875em;
 }
