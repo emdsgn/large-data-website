@@ -32,6 +32,56 @@ float: left;
   display: block;
 }
 
+/* CSS STYLE FOR HOME PAGE */
+.homebg {
+  background-color: #200d07;
+}
+
+.coverphoto {
+  padding-top: 9.5em;
+}
+
+h1 {
+  color: #FFF;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.covertext {
+  background-color: #000;
+  position: fixed;
+  display: block;
+  margin: 19.2%;
+  margin-left: 33.85%;
+  padding: 0;
+  width: 30%;
+}
+
+.home-nav {
+  display: block;
+  position: fixed;
+  background-color: #FFF;
+  margin: 28%;
+  margin-left: 46.5%;
+  width: 5%;
+  padding: 0;
+}
+
+.home-nav-link {
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+
+/* END CSS - HOME PAGE */
+
+.grid {
+  overflow: hidden;
+}
+
 .sidebar {
   background-color: #2b2b2b;
   position: fixed;
