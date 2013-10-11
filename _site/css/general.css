@@ -346,6 +346,15 @@ dt {
 
 /* END 1150 */
 
+/* 1440 (17" MACBOOK) */
+@media only screen and (min-width: 90em) {
+  dl {
+    margin-bottom: 10em;
+    background-color: red;
+  }
+}
+/* END 1440 */
+
 /* FULL SCREEN IMAC */
 @media only screen and (min-width: 120em) {
   .nav-wrapper {
