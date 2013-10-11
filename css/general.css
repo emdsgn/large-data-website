@@ -28,128 +28,274 @@ body {
   display: block;
 }
 
-.grid {
-  overflow: hidden;
+/* 240 px */
+
+.img-l-1 {
+  display: none;
 }
 
 .sidebar {
-  background-color: #2b2b2b;
-  position: fixed;
-  width: 9%;
-  display: block;
-  padding: 1em;
+  display: none;
 }
 
-.sidebarnav li {
+.nav {
   list-style-type: none;
-  padding-bottom: 0.5em;
 }
 
-.sidebarnav a {
+.nav li {
+  display: block;
+  padding: 0.5em;
+  text-transform: uppercase;
+}
+
+.nav-secondary li {
+  padding: 0.5em;
+  font-size: 0.7em;
+}
+
+a {
+  border-bottom: 0.1em solid #ccc;
+  -o-transition: all 100ms linear;
+  -moz-transition: all 100ms linear;
+  -webkit-transition: all 100ms linear;
+  transition: all 100ms linear;
+  color: #222;
   text-decoration: none;
-  color: #FFF;
 }
 
-.sidebarnav a:hover,
-.sidebarnav a:focus,
-.sidebarnav a:active {
-  color: red;
+a:hover,
+a:focus,
+a:active {
+  border-color: #000;
+  color: #000;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1em;
   line-height: 0.2em;
 }
 
 #wt {
   background-color: #2b2b2b;
   color: #FFF;
-  padding: 10em;
+  padding: 1em;
 }
 
 #titw {
   background-color: #eee;
   color: #2b2b2b;
-  padding: 10em;
+  padding: 1em;
 }
 
 #is,
 #fat {
   background-color: #2b2b2b;
   color: #FFF;
-  padding: 10em;
+  padding: 1em;
 }
 
-.nav-secondary {
-  float: right;
+dt {
+  width: 80%;
 }
 
-.nav-secondary li {
-  margin-left: 0.5em;
-  margin-right: 0;
+/* END 240 px*/
+
+/* 400 PX*/
+
+@media only screen and (min-width: 25em) {
+  .nav li {
+    display: block;
+    color: #FFF;
+    font-size: 1.5em;
+  }
+
+  .nav-secondary li {
+    display: inline-block;
+    font-size: 0.7em;
+  }
+
+  dl {
+    overflow: hidden;
+    margin-bottom: -3%;
+  }
+
+  dt {
+    width: 40%;
+    float: left;
+  }
+
+  dd {
+    width: 40%;
+    float: right;
+  }
+
 }
 
-.nav-secondary li:before {
-  content: "·";
-  left: -0.5em;
-  position: absolute;
+/* END 400*/
+
+/* 600 PX*/
+
+@media only screen and (min-width: 37.5em) {
+  .nav li {
+    display: inline-block;
+    color: #FFF;
+    font-size: 1em;
+    padding: 0.9em;
+  }
+
+  .nav-secondary li {
+    display: inline-block;
+    font-size: 1em;
+    padding: 0.9;
+  }
+
+  #wt {
+    padding: 1.5em;
+  }
+
+  #titw {
+    padding: 1.5em;
+  }
+
+  #is,
+  #fat {
+    padding: 1.5em;
+  }
+
+  dl {
+    overflow: hidden;
+    margin-bottom: -3%;
+  }
+
+  dt {
+    width: 40%;
+    float: left;
+  }
+
+  dd {
+    width: 52%;
+    float: right;
+  }
+
 }
 
-.nav-secondary li:first-child:before {
-  display: none;
-}
+/* END 600*/
+
+/* FULL SCREEN IMAC */
+@media only screen and (min-width: 120em) {
+  .nav-wrapper {
+    float: right;
+  }
+
+  .nav {
+    list-style-type: none;
+  }
+
+  .nav li {
+    display: inline-block;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+
+  .nav-secondary {
+    width: 25%;
+    float: right;
+  }
+
+  .nav-secondary li {
+    padding: 0;
+    padding-left: 1.5em;
+  }
+
+  .sidebar {
+    background-color: #000;
+    position: fixed;
+    width: 9%;
+    display: block;
+    padding: 1em;
+    margin-top: 5%;
+  }
+
+  .sidebarnav li {
+    list-style-type: none;
+    padding-bottom: 0.5em;
+  }
+
+  .sidebarnav a {
+    text-decoration: none;
+    color: #FFF;
+  }
+
+  .sidebarnav a:hover,
+  .sidebarnav a:focus,
+  .sidebarnav a:active {
+    color: red;
+  }
+
+  a {
+    border-bottom: 0.1em solid #ccc;
+    -o-transition: all 100ms linear;
+    -moz-transition: all 100ms linear;
+    -webkit-transition: all 100ms linear;
+    transition: all 100ms linear;
+    color: #222;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    border-color: #000;
+    color: #000;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    line-height: 0.2em;
+  }
+
+  #wt {
+    background-color: #2b2b2b;
+    color: #FFF;
+    padding: 12em;
+  }
+
+  #titw {
+    background-color: #eee;
+    color: #2b2b2b;
+    padding: 12em;
+  }
+
+  #is,
+  #fat {
+    background-color: #2b2b2b;
+    color: #FFF;
+    padding: 12em;
+  }
+
+  dl {
+    padding-bottom: 10.2em;
+  }
+
+  dt {
+    float: left;
+    width: 30%;
+  }
+
+  dd {
+    float: right;
+    width: 63%;
+  }
+
+  .copyright {
+    width: 10%;
+    float: left;
+  }
+
+  .footer {
+    padding: 0.5em 8px 0;
+    font-size: 0.875em;
+  }
 
 }
-
-.footer {
-  margin-top: 1em;
-  padding: 0.5em 8px 0;
-  border-top: 2px solid #ddd;
-  font-size: 0.875em;
-}
-
-/* CSS STYLE FOR HOME PAGE */
-.homebg {
-  background-color: #200d07;
-}
-
-.coverphoto {
-  padding-top: 9.5em;
-}
-
-h1 {
-  color: #FFF;
-  letter-spacing: 0.01em;
-  text-align: center;
-}
-
-.covertext {
-  background-color: #000;
-  position: fixed;
-  display: block;
-  margin: 19.2%;
-  margin-left: 33.85%;
-  padding: 0;
-  width: 30%;
-}
-
-.home-nav {
-  display: block;
-  position: fixed;
-  background-color: #FFF;
-  margin: 28%;
-  margin-left: 46.5%;
-  width: 5%;
-  padding: 0;
-}
-
-.home-nav-link {
-  font-size: 1.2em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0.5em;
-}
-
-/* END CSS - HOME PAGE */
+/* END FULL SCREEN IMAC */
