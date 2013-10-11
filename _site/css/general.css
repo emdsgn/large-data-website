@@ -135,7 +135,7 @@ dt {
 
 /* 600 PX*/
 
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 38em) {
   .nav li {
     display: inline-block;
     color: #FFF;
@@ -165,6 +165,7 @@ dt {
   dl {
     overflow: hidden;
     margin-bottom: -3%;
+    padding-bottom: 4.9em;
   }
 
   dt {
@@ -173,13 +174,177 @@ dt {
   }
 
   dd {
-    width: 52%;
+    width: 32%;
     float: right;
+  }
+
+  .unit-s-1 {
+    display: none;
+  }
+
+  .grid {
+    overflow: hidden;
   }
 
 }
 
 /* END 600*/
+
+/* 700 PX*/
+@media only screen and (min-width: 43.75em) {
+  .nav-wrapper {
+    float: right;
+  }
+
+  .nav-secondary {
+    float: right;
+    width: 80%;
+  }
+
+  .nav-secondary li {
+    padding: 0;
+    padding-right: 1em;
+    margin: 0;
+  }
+
+  .banner {
+    overflow: hidden;
+  }
+
+  dl {
+    padding-bottom: 3.6em;
+  }
+
+  .copyright {
+    float: left;
+    width: 20%;
+  }
+}
+/*END 700*/
+
+/* 850 px*/
+@media only screen and (min-width: 53.125em) {
+  .img-s-1 {
+    display: none;
+  }
+
+  .img-l-1 {
+    display: block;
+  }
+
+  dl {
+    padding-bottom: 5.1em;
+  }
+
+  .nav-secondary {
+    width: 60%;
+  }
+}
+/* END 850*/
+
+/* 930 PX*/
+@media only screen and (min-width: 58.12em) {
+  dl {
+    padding-bottom: 2.4em;
+  }
+
+  dd {
+    width: 50%;
+  }
+
+  .nav-secondary {
+    width: 55%;
+  }
+}
+/* END 930*/
+
+/* 1050 PX*/
+@media only screen and (min-width: 65.62em) {
+  .sidebar {
+    display: block;
+    background-color: #000;
+    position: fixed;
+    width: 16.5%;
+    padding: 1em;
+    margin-top: 5%;
+  }
+
+  .sidebarnav li {
+    list-style-type: none;
+    padding-bottom: 0.5em;
+  }
+
+  .sidebarnav a {
+    text-decoration: none;
+    color: #FFF;
+  }
+
+  .sidebarnav a:hover,
+  .sidebarnav a:focus,
+  .sidebarnav a:active {
+    color: red;
+  }
+
+  #wt {
+    padding: 5em;
+  }
+
+  #titw {
+    padding: 5em;
+  }
+
+  #is,
+  #fat {
+    padding: 5em;
+  }
+
+  dl {
+    padding-bottom: 5.1em;
+  }
+
+  dd {
+    width: 45%;
+  }
+
+  .nav-secondary {
+    width: 48%;
+  }
+}
+/* END 1050*/
+
+/* 1150 PX*/
+@media only screen and (min-width: 71.87em) {
+  #wt {
+    padding: 8em;
+  }
+
+  #titw {
+    padding: 8em;
+  }
+
+  #is,
+  #fat {
+    padding: 8em;
+  }
+
+  dl {
+    padding-bottom: 5em;
+  }
+
+  dt {
+    width: 48%;
+  }
+
+  dd {
+    width: 39%;
+  }
+
+  .nav-secondary {
+    width: 48%;
+  }
+}
+
+/* END 1150 */
 
 /* FULL SCREEN IMAC */
 @media only screen and (min-width: 120em) {
