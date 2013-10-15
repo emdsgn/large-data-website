@@ -4,6 +4,23 @@
   <meta charset=utf-8>
   <meta name="description" content="Here you will learn about Richard's history">
   <title>{% if page.title %}{{page.title}}{%endif%}{% if page.title == null %}{% endif %}</title>
+  <!-- Facebook -->
+  <meta property="og:type" content="artilce">
+  <meta property="og:title" content="Say hello to Richard Parker.">
+  <meta property="og:url" content="http://emdsgn.github.io/large-data-website/home.html">
+  <meta property="og:image" content="http://domain.com/img/thing.jpg">
+  <!-- Image size: min. 200x200, prefered 1500x1500 -->
+  <meta property="og:site_name" content="Tigers">
+  <meta property="og:description" content="Come follow the history of Richard Parker, a tiger.">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:title" content="Say hello to Richard Parker.">
+  <meta property="twitter:url" content="http://emdsgn.github.com/large-data-website/home.html">
+  <meta property="twitter:image" content="http://domain.com/img/thing.jpg">
+  <!-- Image size: min. 120x120 -->
+  <meta property="twitter:description" content="Come follow the history of Richard Parker, a tiger.">
+
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -15,8 +32,8 @@
 <header class="banner">
   <nav class="nav-wrapper">
     <ul class="nav">
-      <li><a href="{{site.baseurl}}/">Tigers</a></li>
-      <li><a href="{{site.baseurl}}/about-tigers/">About Tigers</a></li>
+      <li><a href="{{site.baseurl}}/tigers/" rel="home">Tigers</a></li>
+      <li><a href="{{site.baseurl}}/about-tigers/" rel="">About Tigers</a></li>
       <li><a href="{{site.baseurl}}/species/">Species</a></li>
       <li><a href="{{site.baseurl}}/tigers-and-humans/">Tigers & Humans</a></li>
     </ul>
@@ -30,7 +47,7 @@
 
   <nav>
     <ul class="nav nav-secondary">
-      <li><a href="{{site.baseurl}}/">Tigers</a></li>
+      <li><a href="{{site.baseurl}}/" rel="home">Tigers</a></li>
       <li><a href="{{site.baseurl}}/about-tigers/">About Tigers</a></li>
       <li><a href="{{site.baseurl}}/species/">Species</a></li>
       <li><a href="{{site.baseurl}}/tigers-and-humans/">Tigers & Humans</a></li>
