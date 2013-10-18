@@ -56,7 +56,7 @@ h1 {
 }
 
 .covertext {
-  background-color: #000;
+  background-color: #200d07;
   display: block;
   margin: 0;
   padding: 1em;
@@ -211,7 +211,7 @@ dt {
   }
 
   .covertext {
-    background-color: #000;
+    background-color: #200d07;
     display: block;
     margin: 0;
     padding: 1em;
@@ -470,7 +470,7 @@ dt {
 /* 1440 (17" MACBOOK) */
 @media only screen and (min-width: 89.37em) {
   .coverphoto {
-    margin-top: 15%;
+    margin-top: 10%;
     margin-bottom: -11.5%;
   }
 
@@ -481,6 +481,7 @@ dt {
 
   .covertext {
     margin-top: -23%;
+    background-color: rgba(32, 13, 7, 0.8);
   }
 
   .home-nav {
@@ -511,6 +512,7 @@ dt {
 
   .covertext {
     margin: 0%;
+    background-color: rgba(32, 13, 7, 0.8);
   }
 
   .home-nav {
