@@ -30,6 +30,59 @@ body {
 
 /* 240 px */
 
+/* CSS STYLE FOR HOME PAGE */
+.homebg {
+  background-color: #200d07;
+}
+
+.coverphoto {
+  padding: 0em;
+  margin-top: 60%;
+}
+
+.s-img {
+  display: block;
+}
+
+.l-img {
+  display: none;
+}
+
+h1 {
+  color: #FFF;
+  letter-spacing: 0.01em;
+  text-align: center;
+  font-size: 2em;
+}
+
+.covertext {
+  background-color: #000;
+  display: block;
+  margin: 0;
+  padding: 1em;
+  width: 100%;
+}
+
+.home-nav {
+  display: block;
+  background-color: #FFF;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.home-nav-link {
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0.5em;
+  text-align: center;
+}
+
+/* END CSS - HOME PAGE */
+
 .img-l-1 {
   display: none;
 }
@@ -101,56 +154,14 @@ dt {
 /* END 240 px*/
 
 
-/* CSS STYLE FOR HOME PAGE */
-.homebg {
-  background-color: #200d07;
-}
-
-.coverphoto {
-  padding-top: 9.5em;
-}
-
-h1 {
-  color: #FFF;
-  letter-spacing: 0.01em;
-  text-align: center;
-}
-
-.covertext {
-  background-color: #000;
-  position: fixed;
-  display: block;
-  margin: 19.2%;
-  margin-left: 33.85%;
-  padding: 0;
-  width: 30%;
-}
-
-.home-nav {
-  display: block;
-  position: fixed;
-  background-color: #FFF;
-  margin: 28%;
-  margin-left: 46.5%;
-  width: 5%;
-  padding: 0;
-}
-
-.home-nav-link {
-  font-size: 1.2em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0.5em;
-}
-
-/* END CSS - HOME PAGE */
-
-
 /* 400 PX*/
 
 @media only screen and (min-width: 25em) {
+  .coverphoto {
+    padding: 0em;
+    margin-top: 40%;
+  }
+
   .nav li {
     display: block;
     color: #FFF;
@@ -184,6 +195,29 @@ h1 {
 /* 600 PX*/
 
 @media only screen and (min-width: 38em) {
+  .coverphoto {
+    padding: 0em;
+    margin-top: 40%;
+    margin-bottom: -20%;
+  }
+
+  .s-img {
+    display: none;
+  }
+
+  .l-img {
+    display: block;
+    width: 200%;
+  }
+
+  .covertext {
+    background-color: #000;
+    display: block;
+    margin: 0;
+    padding: 1em;
+    width: 100%;
+  }
+
   .nav li {
     display: inline-block;
     color: #FFF;
@@ -272,6 +306,15 @@ h1 {
 
 /* 850 px*/
 @media only screen and (min-width: 53.125em) {
+  .coverphoto {
+    margin-top: 23%;
+    margin-bottom: -13%;
+  }
+
+  .covertext {
+    padding: 3em;
+  }
+
   .img-s-1 {
     display: none;
   }
@@ -292,6 +335,11 @@ h1 {
 
 /* 930 PX*/
 @media only screen and (min-width: 58.12em) {
+  .coverphoto {
+    margin-top: 23%;
+    margin-bottom: -11.5%;
+  }
+
   dl {
     padding-bottom: 2.4em;
   }
@@ -308,6 +356,31 @@ h1 {
 
 /* 1050 PX*/
 @media only screen and (min-width: 65.62em) {
+  .l-img {
+    width: 100%;
+  }
+
+  .coverphoto {
+    margin-top: 23%;
+    margin-bottom: -11.5%;
+  }
+
+  .covertext {
+    position: fixed;
+    display: block;
+    margin-top: -30%;
+    padding: 0;
+  }
+
+  .home-nav {
+    display: block;
+    position: fixed;
+    margin-left: 43%;
+    margin-top: -5%;
+    width: 10%;
+    padding: 0;
+  }
+
   .sidebar {
     display: block;
     background-color: #000;
@@ -408,6 +481,60 @@ h1 {
 
 /* FULL SCREEN IMAC */
 @media only screen and (min-width: 120em) {
+  /* CSS STYLE FOR HOME PAGE */
+  .homebg {
+    background-color: #200d07;
+  }
+
+  .coverphoto {
+    padding-top: 9.5em;
+  }
+
+  .s-img {
+    display: none;
+  }
+
+  .l-img {
+    display: block;
+  }
+
+  h1 {
+    color: #FFF;
+    letter-spacing: 0.01em;
+    text-align: center;
+  }
+
+  .covertext {
+    background-color: #000;
+    position: fixed;
+    display: block;
+    margin: 19.2%;
+    margin-left: 33.85%;
+    padding: 0;
+    width: 30%;
+  }
+
+  .home-nav {
+    display: block;
+    position: fixed;
+    background-color: #FFF;
+    margin: 28%;
+    margin-left: 46.5%;
+    width: 5%;
+    padding: 0;
+  }
+
+  .home-nav-link {
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0.5em;
+  }
+
+/* END CSS - HOME PAGE */
+
   .nav-wrapper {
     float: right;
   }
