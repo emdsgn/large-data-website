@@ -469,6 +469,25 @@ dt {
 
 /* 1440 (17" MACBOOK) */
 @media only screen and (min-width: 89.37em) {
+  .coverphoto {
+    margin-top: 15%;
+    margin-bottom: -11.5%;
+  }
+
+  h1 {
+    font-size: 2em;
+    padding: 0.5em;
+  }
+
+  .covertext {
+    margin-top: -23%;
+  }
+
+  .home-nav {
+    margin-left: %;
+    margin-top: -12%;
+  }
+
   dl {
     margin-bottom: -11.5%;
   }
@@ -487,50 +506,16 @@ dt {
   }
 
   .coverphoto {
-    padding-top: 9.5em;
-  }
-
-  .s-img {
-    display: none;
-  }
-
-  .l-img {
-    display: block;
-  }
-
-  h1 {
-    color: #FFF;
-    letter-spacing: 0.01em;
-    text-align: center;
+    margin-top: -30%;
   }
 
   .covertext {
-    background-color: #000;
-    position: fixed;
-    display: block;
-    margin: 19.2%;
-    margin-left: 33.85%;
-    padding: 0;
-    width: 30%;
+    margin: 0%;
   }
 
   .home-nav {
-    display: block;
-    position: fixed;
-    background-color: #FFF;
-    margin: 28%;
+    margin: 0%;
     margin-left: 46.5%;
-    width: 5%;
-    padding: 0;
-  }
-
-  .home-nav-link {
-    font-size: 1.2em;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0.5em;
   }
 
 /* END CSS - HOME PAGE */
