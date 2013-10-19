@@ -1,0 +1,51 @@
+/* CSS STYLE FOR HOME PAGE */
+.home-nav {
+  display: block;
+  background-color: #FFF;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.home-nav-link {
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0.5em;
+  text-align: center;
+}
+/* END CSS FOR HOME PG */
+
+.nav {
+  list-style-type: none;
+}
+
+.nav li {
+  display: block;
+  padding: 0.5em;
+  text-transform: uppercase;
+}
+
+.nav-secondary li {
+  padding: 0.5em;
+  font-size: 0.7em;
+}
+
+a {
+  border-bottom: 0.1em solid #ccc;
+  -o-transition: all 100ms linear;
+  -moz-transition: all 100ms linear;
+  -webkit-transition: all 100ms linear;
+  transition: all 100ms linear;
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  border-color: #000;
+  color: #000;
+}
