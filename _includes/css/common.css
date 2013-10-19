@@ -1,8 +1,133 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+  color: #2b2b2b;
+  font: normal 100%/1.4 Georgia,serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-img {
+  width: 100%;
+  display: block;
+}
+
+/* 240 px */
+.responsive-container {
+    display: table-cell;
+    width: 500px;
+    height: 630px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.img-container {
+    display: inline-block;
+    background: red;
+}
+
+.s-img {
+  display: block;
+}
+
+.l-img {
+  display: none;
+}
+
+.homebg {
+  background-color: #200d07;
+}
+
+.covertext {
+  background-color: #ccc;
+  position: absolute;
+  display: block;
+  padding: 1em;
+  width: 100%;
+  margin-top: -93%;
+}
+
+.home-nav {
+  display: block;
+  position: absolute;
+  bottom: 28%;
+}
+
+h1 {
+  color: #FFF;
+  letter-spacing: 0.01em;
+  text-align: center;
+  font-size: 1.5em;
+}
+/* END CSS - HOME PAGE */
+
+h2 {
+  font-size: 1em;
+  line-height: 0.2em;
+}
+
+.img-l-1 {
+  display: none;
+}
+
+.sidebar {
+  display: none;
+}
+
+#wt {
+  background-color: #2b2b2b;
+  color: #FFF;
+  padding: 1em;
+}
+
+#titw {
+  background-color: #eee;
+  color: #2b2b2b;
+  padding: 1em;
+}
+
+#is,
+#fat {
+  background-color: #2b2b2b;
+  color: #FFF;
+  padding: 1em;
+}
+
+dt {
+  width: 80%;
+}
+/* END 240 px*/
+
 /* 400 PX*/
-@media only screen and (min-width: 25em) {
-  .coverphoto {
-    padding: 0em;
-    margin-top: 40%;
+@media only screen and (min-width: 25rem) {
+  .responsive-container {
+    width: 100%;
+    height: 730px;
+  }
+
+  .covertext {
+    margin-top: -51.7%;
+  }
+
+  .home-nav,
+  .home-nav-link {
+    bottom: 22%;
   }
 
   .nav li {
@@ -30,16 +155,50 @@
     width: 40%;
     float: right;
   }
-
 }
 /* END 400*/
 
+/* 570 PX */
+@media only screen and (min-width: 35.62rem) {
+  .responsive-container {
+    width: 100%;
+    height: 850px;
+  }
+
+  .covertext {
+    margin-top: -85%;
+  }
+
+  .home-nav,
+  .home-nav-link {
+    bottom: 22%;
+  }
+}
+
+/* END 570 */
+
 /* 600 PX*/
-@media only screen and (min-width: 38em) {
-  .coverphoto {
-    padding: 0em;
-    margin-top: 40%;
-    margin-bottom: -20%;
+@media only screen and (min-width: 38rem) {
+  .responsive-container {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+
+  .covertext {
+    margin-top: -54.8%;
+  }
+
+  .home-nav,
+  .home-nav-link {
+    bottom: 22.2%;
+  }
+
+  .wrapper {
+    height: 850px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
   }
 
   .s-img {
@@ -48,15 +207,6 @@
 
   .l-img {
     display: block;
-    width: 200%;
-  }
-
-  .covertext {
-    background-color: #200d07;
-    display: block;
-    margin: 0;
-    padding: 1em;
-    width: 100%;
   }
 
   .nav li {
@@ -113,7 +263,20 @@
 /* END 600*/
 
 /* 700 PX*/
-@media only screen and (min-width: 43.75em) {
+@media only screen and (min-width: 43.75rem) {
+  .covertext {
+    margin-top: -38.5%;
+  }
+
+  .home-nav,
+  .home-nav-link {
+    bottom: 26.3%;
+  }
+
+  .wrapper {
+    height: 750px;
+  }
+
   .nav-wrapper {
     float: right;
   }
@@ -145,14 +308,18 @@
 /*END 700*/
 
 /* 850 px*/
-@media only screen and (min-width: 53.125em) {
-  .coverphoto {
-    margin-top: 23%;
-    margin-bottom: -13%;
+@media only screen and (min-width: 53.125rem) {
+  .covertext {
+    margin-top: -29.2%;
   }
 
-  .covertext {
-    padding: 3em;
+  .home-nav,
+  .home-nav-link {
+    bottom: 27.6%;
+  }
+
+  .wrapper {
+    height: 750px;
   }
 
   .img-s-1 {
@@ -174,10 +341,18 @@
 /* END 850*/
 
 /* 930 PX*/
-@media only screen and (min-width: 58.12em) {
-  .coverphoto {
-    margin-top: 23%;
-    margin-bottom: -11.5%;
+@media only screen and (min-width: 58.12rem) {
+  .covertext {
+    margin-top: -51%;
+  }
+
+  .home-nav,
+  .home-nav-link {
+    bottom: 31.4%;
+  }
+
+  .wrapper {
+    height: 850px;
   }
 
   dl {
@@ -195,30 +370,19 @@
 /* END 930*/
 
 /* 1050 PX*/
-@media only screen and (min-width: 65.62em) {
-  .l-img {
-    width: 100%;
-  }
-
-  .coverphoto {
-    margin-top: 23%;
-    margin-bottom: -11.5%;
-  }
-
+@media only screen and (min-width: 65.62rem) {
   .covertext {
-    position: fixed;
-    display: block;
-    margin-top: -30%;
-    padding: 0;
+    margin-top: -45%;
   }
 
-  .home-nav {
-    display: block;
-    position: fixed;
-    margin-left: 43%;
-    margin-top: -5%;
-    width: 10%;
-    padding: 0;
+  .home-nav,
+  .home-nav-link {
+    bottom: 29.4%;
+  }
+
+  .wrapper {
+    width: 1050px;
+    height: 850px;
   }
 
   .sidebar {
@@ -274,7 +438,21 @@
 /* END 1050*/
 
 /* 1150 PX*/
-@media only screen and (min-width: 71.87em) {
+@media only screen and (min-width: 71.87rem) {
+  .covertext {
+    margin-top: -40%;
+  }
+
+  .home-nav,
+  .home-nav-link {
+    bottom: 27.7%;
+  }
+
+  .wrapper {
+    width: 1150px;
+    height: 850px;
+  }
+
   #wt {
     padding: 8em;
   }
@@ -308,25 +486,23 @@
 /* END 1150 */
 
 /* 1440 (17" MACBOOK) */
-@media only screen and (min-width: 89.37em) {
-  .coverphoto {
-    margin-top: 10%;
-    margin-bottom: -11.5%;
+@media only screen and (min-width: 89.37rem) {
+  .covertext {
+    margin-top: -33%;
+  }
+
+  .home-nav,
+  .home-nav-link {
+    bottom: 22.8%;
+  }
+
+  .wrapper {
+    width: 1440px;
+    height: 850px;
   }
 
   h1 {
     font-size: 2em;
-    padding: 0.5em;
-  }
-
-  .covertext {
-    margin-top: -23%;
-    background-color: rgba(32, 13, 7, 0.8);
-  }
-
-  .home-nav {
-    margin-left: %;
-    margin-top: -12%;
   }
 
   dl {
@@ -340,27 +516,22 @@
 /* END 1440 */
 
 /* FULL SCREEN IMAC */
-@media only screen and (min-width: 120em) {
+@media only screen and (min-width: 120rem) {
   /* CSS STYLE FOR HOME PAGE */
-  .homebg {
-    background-color: #200d07;
-  }
-
-  .coverphoto {
-    margin-top: -30%;
-  }
-
   .covertext {
-    margin: 0%;
-    background-color: rgba(32, 13, 7, 0.8);
+    margin-top: -25%;
   }
 
-  .home-nav {
-    margin: 0%;
-    margin-left: 46.5%;
+  .home-nav,
+  .home-nav-link {
+    bottom: 14.1%;
   }
 
-/* END CSS - HOME PAGE */
+  .wrapper {
+    width: 1920px;
+    height: 860px;
+  }
+  /* END CSS - HOME PAGE */
 
   .nav-wrapper {
     float: right;

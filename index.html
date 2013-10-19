@@ -3,24 +3,28 @@ layout: home
 title: Richard Parker
 ---
 
-<div class="wrapper">
-  <div class="unit unit-s-1 unit-m-1-2 unit-l-1 coverphoto">
-    <img src="{{site.baseurl}}/img/tiger-fur.jpg" class="flex-img l-img" alt="A Photo of a Tiger's Fur">
-  </div>
-
-  <div class="unit unit-s-1 unit-m-1-2 unit-l-1 coverphoto">
-    <img src="{{site.baseurl}}/img/tiger-fur800.jpg" class="flex-img s-img" alt="A Photo of a Tiger's Fur">
-  </div>
-
-  <div class="grid">
-    <div class="covertext">
-      <h1>Hey there! Join us in the Adventure of Richard Parker</h1>
+<div class="responsive-container">
+    <div class="img-container">
+          <div class="unit unit-s-1 unit-m-1-2 unit-l-1 coverphoto">
+            <img src="{{site.baseurl}}/img/tiger-fur800.jpg" class="flex-img s-img" alt="A Photo of a Tiger's Fur">
+          </div>
     </div>
+</div>
 
-    <nav class="home-nav">
-      <ul class="home-nav-link">
-        <li><a href="{{site.baseurl}}/tigers/" class="nav-link nav-primary-link operations {% if page.url contains 'home' %}nav-selected{% endif %}">Enter</a></li>
-      </ul>
-    </nav>
+<div class="wrapper">
+<div class="unit unit-s-1 unit-m-1 unit-l-1 coverphoto">
+  <img src="{{site.baseurl}}/img/tiger-fur.jpg" class="flex-img l-img" alt="A Photo of a Tiger's Fur">
+</div>
+</div>
+
+<div class="grid">
+  <div class="covertext">
+    <h1>Hey there! Join us in the Adventure of Richard Parker</h1>
   </div>
+
+  <nav class="home-nav">
+    <ul class="home-nav-link">
+      <li><a href="{{site.baseurl}}/tigers/" class="nav-link nav-primary-link operations {% if page.url contains 'home' %}nav-selected{% endif %}">Enter</a></li>
+    </ul>
+  </nav>
 </div>
