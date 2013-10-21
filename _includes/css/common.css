@@ -29,17 +29,8 @@ body {
 }
 
 /* 240 px */
-.responsive-container {
-    display: table-cell;
-    width: 500px;
-    height: 630px;
-    vertical-align: middle;
-    text-align: center;
-}
-
-.img-container {
-    display: inline-block;
-    background: red;
+.grid-padding {
+  padding-top: 10.5em;
 }
 
 .s-img {
@@ -60,20 +51,19 @@ body {
   display: block;
   padding: 1em;
   width: 100%;
-  margin-top: -93%;
 }
 
 .home-nav {
   display: block;
   position: absolute;
-  bottom: 28%;
+  top: 67.5%;
 }
 
 h1 {
   color: #FFF;
   letter-spacing: 0.01em;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 /* END CSS - HOME PAGE */
 
@@ -116,18 +106,16 @@ dt {
 
 /* 400 PX*/
 @media only screen and (min-width: 25rem) {
-  .responsive-container {
-    width: 100%;
-    height: 730px;
+  .grid-padding {
+    padding-top: 10.5em;
   }
 
   .covertext {
-    margin-top: -51.7%;
+    margin-top: -51%;
   }
 
-  .home-nav,
-  .home-nav-link {
-    bottom: 22%;
+  .home-nav {
+    top: 69.1%;
   }
 
   .nav li {
@@ -160,18 +148,20 @@ dt {
 
 /* 570 PX */
 @media only screen and (min-width: 35.62rem) {
-  .responsive-container {
-    width: 100%;
-    height: 850px;
+  .grid-padding {
+    padding-top: 8em;
   }
 
   .covertext {
-    margin-top: -85%;
+    margin-top: -53%;
   }
 
-  .home-nav,
-  .home-nav-link {
-    bottom: 22%;
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .home-nav {
+    top: 82%;
   }
 }
 
@@ -179,12 +169,6 @@ dt {
 
 /* 600 PX*/
 @media only screen and (min-width: 38rem) {
-  .responsive-container {
-    width: 0;
-    height: 0;
-    display: none;
-  }
-
   .covertext {
     margin-top: -54.8%;
   }
