@@ -105,7 +105,7 @@ dt {
 /* END 240 px*/
 
 /* 400 PX*/
-@media only screen and (min-width: 25rem) {
+@media only screen and (min-width: 25em) {
   .grid-padding {
     padding-top: 10.5em;
   }
@@ -147,7 +147,7 @@ dt {
 /* END 400*/
 
 /* 570 PX */
-@media only screen and (min-width: 35.62rem) {
+@media only screen and (min-width: 35.62em) {
   .grid-padding {
     padding-top: 8em;
   }
@@ -168,7 +168,7 @@ dt {
 /* END 570 */
 
 /* 600 PX*/
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 38em) {
   .covertext {
     margin-top: -54.8%;
   }
@@ -247,7 +247,7 @@ dt {
 /* END 600*/
 
 /* 700 PX*/
-@media only screen and (min-width: 43.75rem) {
+@media only screen and (min-width: 43.75em) {
   .covertext {
     margin-top: -38.5%;
   }
@@ -292,7 +292,7 @@ dt {
 /*END 700*/
 
 /* 850 px*/
-@media only screen and (min-width: 53.125rem) {
+@media only screen and (min-width: 53.125em) {
   .covertext {
     margin-top: -29.2%;
   }
@@ -325,7 +325,7 @@ dt {
 /* END 850*/
 
 /* 930 PX*/
-@media only screen and (min-width: 58.12rem) {
+@media only screen and (min-width: 58.12em) {
   .covertext {
     margin-top: -51%;
   }
@@ -354,7 +354,7 @@ dt {
 /* END 930*/
 
 /* 1050 PX*/
-@media only screen and (min-width: 65.62rem) {
+@media only screen and (min-width: 65.62em) {
   .covertext {
     margin-top: -45%;
   }
@@ -422,7 +422,7 @@ dt {
 /* END 1050*/
 
 /* 1150 PX*/
-@media only screen and (min-width: 71.87rem) {
+@media only screen and (min-width: 71.87em) {
   .covertext {
     margin-top: -40%;
   }
@@ -470,7 +470,7 @@ dt {
 /* END 1150 */
 
 /* 1440 (17" MACBOOK) */
-@media only screen and (min-width: 89.37rem) {
+@media only screen and (min-width: 89.37em) {
   .covertext {
     margin-top: -33%;
   }
@@ -500,7 +500,7 @@ dt {
 /* END 1440 */
 
 /* FULL SCREEN IMAC */
-@media only screen and (min-width: 120rem) {
+@media only screen and (min-width: 120em) {
   /* CSS STYLE FOR HOME PAGE */
   .covertext {
     margin-top: -25%;
