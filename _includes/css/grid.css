@@ -17,9 +17,11 @@
   vertical-align: top;
   word-spacing: normal;
 }
+
 .unit-spacer {
-  padding: 8px;
+  padding: 0 auto;
 }
+
 @media only screen and (max-width: 38em) {
   .unit-s-hidden {
     display: none;
@@ -90,5 +92,11 @@
   }
   .unit-l-3-4 {
     width: 75%;
+  }
+  .unit-l-2-5 {
+    width: 35%;
+  }
+  .unit-l-3-5 {
+    width: 65%;
   }
 }

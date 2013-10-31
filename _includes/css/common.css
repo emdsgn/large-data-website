@@ -595,9 +595,9 @@ dt {
   }
 
   #titw {
-    background-color: #eee;
+    background-color: #000;
     color: #2b2b2b;
-    padding: 12em;
+    padding: -10em;
   }
 
   #is,
