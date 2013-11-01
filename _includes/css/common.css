@@ -48,7 +48,6 @@ body {
 }
 
 .right-padding {
-  padding-right: 1em;
 }
 
 ul {
@@ -84,7 +83,8 @@ h2 {
 
 #wt,
 #char,
-#tot {
+#tot,
+#rwh {
   background-color: #1f0d06;
   color: #9e3600;
   padding: 1em;
@@ -92,7 +92,8 @@ h2 {
 
 #titw,
 #lab,
-#es {
+#es,
+#cd {
   background-color: #592005;
   color: #f9e0bb;
   padding: 1em;
@@ -100,7 +101,8 @@ h2 {
 
 #is,
 #rep,
-#cv {
+#cv,
+#th {
   background-color: #d7621a;
   color: #1f0d06;
   padding: 1em;
@@ -108,18 +110,29 @@ h2 {
 
 #fat,
 #hh,
-#hyb {
+#hyb,
+#ce {
   background-color: #c9a879;
   color: #592005;
   padding: 1em;
 }
 
-dt {
-  width: 80%;
+dd {
+  margin-left: 0;
+  padding-bottom: 0.8em;
+}
+
+.tiger-name {
+  margin: 0 auto;
 }
 
 .copyright {
   text-align: center;
+  margin: 0 auto;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  padding: 0.5em 0 0.5em 0;
+  font-family: sans-serif;
 }
 
 /* END 240 px*/
@@ -162,13 +175,15 @@ dt {
 
   #wt,
   #char,
-  #tot {
+  #tot,
+  #rwh {
     padding: 1.5em;
   }
 
   #titw,
   #lab,
-  #es {
+  #es,
+  #cd {
     padding: 1.5em;
   }
 
@@ -177,7 +192,9 @@ dt {
   #rep,
   #hh,
   #cv,
-  #hyb {
+  #hyb,
+  #th,
+  #ce {
     padding: 1.5em;
   }
 
@@ -220,8 +237,6 @@ dt {
   }
 
   .copyright {
-    float: left;
-    width: 20%;
   }
 }
 /*END 700*/
@@ -258,13 +273,15 @@ dt {
 @media only screen and (min-width: 65.62em) {
   #wt,
   #char,
-  #tot {
+  #tot,
+  #rwh {
     padding: 5em;
   }
 
   #titw,
   #lab,
-  #es {
+  #es,
+  #cd {
     padding: 5em;
   }
 
@@ -273,7 +290,9 @@ dt {
   #rep,
   #hh,
   #cv,
-  #hyb {
+  #hyb,
+  #th,
+  #ce {
     padding: 5em;
   }
 
@@ -291,13 +310,15 @@ dt {
 @media only screen and (min-width: 71.87em) {
   #wt,
   #char,
-  #tot {
+  #tot,
+  #rwh {
     padding: 8em;
   }
 
   #titw,
   #lab,
-  #es {
+  #es,
+  #cd {
     padding: 8em;
   }
 
@@ -306,7 +327,9 @@ dt {
   #rep,
   #hh,
   #cv,
-  #hyb {
+  #hyb,
+  #th,
+  #ce {
     padding: 8em;
   }
 
@@ -350,12 +373,14 @@ dt {
 
   #wt,
   #char,
-  #tot {
+  #tot,
+  #rwh {
     padding: 12em;
   }
 
   #titw,
-  #es {
+  #es,
+  #cd {
     padding: 12em;
   }
 
@@ -363,7 +388,9 @@ dt {
   #fat,
   #hh,
   #rep,
-  #cv {
+  #cv,
+  #th,
+  #ce {
     padding: 12em;
   }
 
@@ -398,12 +425,9 @@ dt {
   }
 
   .copyright {
-    width: 10%;
-    float: left;
   }
 
   .footer {
-    padding: 0.5em 8px 0;
     font-size: 0.875em;
   }
 
