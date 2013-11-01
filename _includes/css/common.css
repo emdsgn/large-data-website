@@ -85,32 +85,41 @@ h2 {
 #wt,
 #char,
 #tot {
-  background-color: #2b2b2b;
-  color: #FFF;
+  background-color: #1f0d06;
+  color: #9e3600;
   padding: 1em;
 }
 
 #titw,
 #lab,
 #es {
-  background-color: #eee;
-  color: #2b2b2b;
+  background-color: #592005;
+  color: #f9e0bb;
   padding: 1em;
 }
 
 #is,
-#fat,
 #rep,
+#cv {
+  background-color: #d7621a;
+  color: #1f0d06;
+  padding: 1em;
+}
+
+#fat,
 #hh,
-#cv,
 #hyb {
-  background-color: #2b2b2b;
-  color: #FFF;
+  background-color: #c9a879;
+  color: #592005;
   padding: 1em;
 }
 
 dt {
   width: 80%;
+}
+
+.copyright {
+  text-align: center;
 }
 
 /* END 240 px*/
@@ -342,15 +351,11 @@ dt {
   #wt,
   #char,
   #tot {
-    background-color: #2b2b2b;
-    color: #FFF;
     padding: 12em;
   }
 
   #titw,
   #es {
-    background-color: #eee;
-    color: #2b2b2b;
     padding: 12em;
   }
 
@@ -359,9 +364,19 @@ dt {
   #hh,
   #rep,
   #cv {
-    background-color: #2B2B2B;
-    color: #FFF;
     padding: 12em;
+  }
+
+  #fat {
+    padding-bottom: 17.8em;
+  }
+
+  #char {
+    padding-bottom: 21.8em;
+  }
+
+  #hh {
+    padding-bottom: 23em;
   }
 
   #hyb {
