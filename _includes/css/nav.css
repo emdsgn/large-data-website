@@ -207,7 +207,7 @@ a:active {
   }
 
   a {
-    border-bottom: 0.1em solid #ccc;
+    border-bottom: 0.1em solid #red;
     -o-transition: all 100ms linear;
     -moz-transition: all 100ms linear;
     -webkit-transition: all 100ms linear;
