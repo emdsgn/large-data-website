@@ -104,14 +104,16 @@ h2 {
 }
 
 #wt,
-#char {
+#char,
+#tot {
   background-color: #2b2b2b;
   color: #FFF;
   padding: 1em;
 }
 
 #titw,
-#lab {
+#lab,
+#es {
   background-color: #eee;
   color: #2b2b2b;
   padding: 1em;
@@ -120,7 +122,9 @@ h2 {
 #is,
 #fat,
 #rep,
-#hh {
+#hh,
+#cv,
+#hyb {
   background-color: #2b2b2b;
   color: #FFF;
   padding: 1em;
@@ -237,19 +241,23 @@ dt {
   }
 
   #wt,
-  #char {
+  #char,
+  #tot {
     padding: 1.5em;
   }
 
   #titw,
-  #lab {
+  #lab,
+  #es {
     padding: 1.5em;
   }
 
   #is,
   #fat,
   #rep,
-  #hh {
+  #hh,
+  #cv,
+  #hyb {
     padding: 1.5em;
   }
 
@@ -429,19 +437,23 @@ dt {
   }
 
   #wt,
-  #char {
+  #char,
+  #tot {
     padding: 5em;
   }
 
   #titw,
-  #lab {
+  #lab,
+  #es {
     padding: 5em;
   }
 
   #is,
   #fat,
   #rep,
-  #hh {
+  #hh,
+  #cv,
+  #hyb {
     padding: 5em;
   }
 
@@ -476,19 +488,23 @@ dt {
   }
 
   #wt,
-  #char {
+  #char,
+  #tot {
     padding: 8em;
   }
 
   #titw,
-  #lab {
+  #lab,
+  #es {
     padding: 8em;
   }
 
   #is,
   #fat,
   #rep,
-  #hh {
+  #hh,
+  #cv,
+  #hyb {
     padding: 8em;
   }
 
@@ -634,21 +650,27 @@ dt {
     line-height: 0.2em;
   }
 
-  #wt {
+  #wt,
+  #char,
+  #tot {
     background-color: #2b2b2b;
     color: #FFF;
     padding: 12em;
   }
 
-  #titw {
+  #titw,
+  #es {
     background-color: #eee;
     color: #2b2b2b;
     padding: 12em;
   }
 
   #is,
-  #fat {
-    background-color: #2b2b2b;
+  #fat,
+  #hh,
+  #rep,
+  #cv {
+    background-color: #FFF;
     color: #FFF;
     padding: 12em;
   }
