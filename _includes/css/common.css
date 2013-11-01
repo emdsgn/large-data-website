@@ -51,10 +51,11 @@ body {
   padding-right: 1em;
 }
 
-/* 240 px */
-.grid-padding {
-  padding-top: 10.5em;
+ul {
+  margin: 0 0 0;
 }
+
+/* 240 px */
 
 .s-img {
   display: block;
@@ -62,24 +63,6 @@ body {
 
 .l-img {
   display: none;
-}
-
-.homebg {
-  background-color: #200d07;
-}
-
-.covertext {
-  background-color: #ccc;
-  position: absolute;
-  display: block;
-  padding: 1em;
-  width: 100%;
-}
-
-.home-nav {
-  display: block;
-  position: absolute;
-  top: 67.5%;
 }
 
 h1 {
@@ -96,10 +79,6 @@ h2 {
 }
 
 .img-l-1 {
-  display: none;
-}
-
-.sidebar {
   display: none;
 }
 
@@ -129,8 +108,6 @@ h2 {
   color: #FFF;
   padding: 1em;
 }
-}
-
 
 dt {
   width: 80%;
@@ -140,29 +117,6 @@ dt {
 
 /* 400 PX*/
 @media only screen and (min-width: 25em) {
-  .grid-padding {
-    padding-top: 10.5em;
-  }
-
-  .covertext {
-    margin-top: -51%;
-  }
-
-  .home-nav {
-    top: 69.1%;
-  }
-
-  .nav li {
-    display: block;
-    color: #FFF;
-    font-size: 1.5em;
-  }
-
-  .nav-secondary li {
-    display: inline-block;
-    font-size: 0.7em;
-  }
-
   dl {
     overflow: hidden;
     margin-bottom: -3%;
@@ -182,62 +136,19 @@ dt {
 
 /* 570 PX */
 @media only screen and (min-width: 35.62em) {
-  .grid-padding {
-    padding-top: 8em;
-  }
 
-  .covertext {
-    margin-top: -53%;
-  }
-
-  h1 {
-    font-size: 1.5em;
-  }
-
-  .home-nav {
-    top: 82%;
-  }
 }
 
 /* END 570 */
 
 /* 600 PX*/
 @media only screen and (min-width: 38em) {
-  .covertext {
-    margin-top: -54.8%;
-  }
-
-  .home-nav,
-  .home-nav-link {
-    bottom: 22.2%;
-  }
-
-  .wrapper {
-    height: 850px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-  }
-
   .s-img {
     display: none;
   }
 
   .l-img {
     display: block;
-  }
-
-  .nav li {
-    display: inline-block;
-    color: #FFF;
-    font-size: 1em;
-    padding: 0.9em;
-  }
-
-  .nav-secondary li {
-    display: inline-block;
-    font-size: 1em;
-    padding: 0.9;
   }
 
   #wt,
@@ -290,36 +201,9 @@ dt {
 
 /* 700 PX*/
 @media only screen and (min-width: 43.75em) {
-  .covertext {
-    margin-top: -38.5%;
-  }
-
-  .home-nav,
-  .home-nav-link {
-    bottom: 26.3%;
-  }
-
-  .wrapper {
-    height: 750px;
-  }
-
-  .nav-wrapper {
-    float: right;
-  }
-
-  .nav-secondary {
-    float: right;
-    width: 80%;
-  }
-
-  .nav-secondary li {
-    padding: 0;
-    padding-right: 1em;
-    margin: 0;
-  }
-
   .banner {
     overflow: hidden;
+    background-image: url(...img/tiger-fur.jpg);
   }
 
   dl {
@@ -335,19 +219,6 @@ dt {
 
 /* 850 px*/
 @media only screen and (min-width: 53.125em) {
-  .covertext {
-    margin-top: -29.2%;
-  }
-
-  .home-nav,
-  .home-nav-link {
-    bottom: 27.6%;
-  }
-
-  .wrapper {
-    height: 750px;
-  }
-
   .img-s-1 {
     display: none;
   }
@@ -359,28 +230,11 @@ dt {
   dl {
     padding-bottom: 5.1em;
   }
-
-  .nav-secondary {
-    width: 60%;
-  }
 }
 /* END 850*/
 
 /* 930 PX*/
 @media only screen and (min-width: 58.12em) {
-  .covertext {
-    margin-top: -51%;
-  }
-
-  .home-nav,
-  .home-nav-link {
-    bottom: 31.4%;
-  }
-
-  .wrapper {
-    height: 850px;
-  }
-
   dl {
     padding-bottom: 2.4em;
   }
@@ -388,54 +242,11 @@ dt {
   dd {
     width: 50%;
   }
-
-  .nav-secondary {
-    width: 55%;
-  }
 }
 /* END 930*/
 
 /* 1050 PX*/
 @media only screen and (min-width: 65.62em) {
-  .covertext {
-    margin-top: -45%;
-  }
-
-  .home-nav,
-  .home-nav-link {
-    bottom: 29.4%;
-  }
-
-  .wrapper {
-    width: 1050px;
-    height: 850px;
-  }
-
-  .sidebar {
-    display: block;
-    background-color: #000;
-    position: fixed;
-    width: 16.5%;
-    padding: 1em;
-    margin-top: 5%;
-  }
-
-  .sidebarnav li {
-    list-style-type: none;
-    padding-bottom: 0.5em;
-  }
-
-  .sidebarnav a {
-    text-decoration: none;
-    color: #FFF;
-  }
-
-  .sidebarnav a:hover,
-  .sidebarnav a:focus,
-  .sidebarnav a:active {
-    color: red;
-  }
-
   #wt,
   #char,
   #tot {
@@ -464,29 +275,11 @@ dt {
   dd {
     width: 45%;
   }
-
-  .nav-secondary {
-    width: 48%;
-  }
 }
 /* END 1050*/
 
 /* 1150 PX*/
 @media only screen and (min-width: 71.87em) {
-  .covertext {
-    margin-top: -40%;
-  }
-
-  .home-nav,
-  .home-nav-link {
-    bottom: 27.7%;
-  }
-
-  .wrapper {
-    width: 1150px;
-    height: 850px;
-  }
-
   #wt,
   #char,
   #tot {
@@ -519,40 +312,18 @@ dt {
   dd {
     width: 39%;
   }
-
-  .nav-secondary {
-    width: 48%;
-  }
 }
 
 /* END 1150 */
 
 /* 1440 (17" MACBOOK) */
 @media only screen and (min-width: 89.37em) {
-  .covertext {
-    margin-top: -33%;
-  }
-
-  .home-nav,
-  .home-nav-link {
-    bottom: 22.8%;
-  }
-
-  .wrapper {
-    width: 1440px;
-    height: 850px;
-  }
-
   h1 {
     font-size: 2em;
   }
 
   dl {
     margin-bottom: -11.5%;
-  }
-
-  .nav-secondary {
-    width: 36%;
   }
 
   #lab {
@@ -562,89 +333,7 @@ dt {
 /* END 1440 */
 
 /* FULL SCREEN IMAC */
-@media only screen and (min-width: 120em) {
-  /* CSS STYLE FOR HOME PAGE */
-  .covertext {
-    margin-top: -25%;
-  }
-
-  .home-nav,
-  .home-nav-link {
-    bottom: 14.1%;
-  }
-
-  .wrapper {
-    width: 1920px;
-    height: 860px;
-  }
-  /* END CSS - HOME PAGE */
-
-  .nav-wrapper {
-    float: right;
-  }
-
-  .nav {
-    list-style-type: none;
-  }
-
-  .nav li {
-    display: inline-block;
-    padding: 1em;
-    text-transform: uppercase;
-  }
-
-  .nav-secondary {
-    width: 25%;
-    float: right;
-  }
-
-  .nav-secondary li {
-    padding: 0;
-    padding-left: 1.5em;
-  }
-
-  .sidebar {
-    background-color: #000;
-    position: fixed;
-    width: 9%;
-    display: block;
-    padding: 1em;
-    margin-top: 5%;
-  }
-
-  .sidebarnav li {
-    list-style-type: none;
-    padding-bottom: 0.5em;
-  }
-
-  .sidebarnav a {
-    text-decoration: none;
-    color: #FFF;
-  }
-
-  .sidebarnav a:hover,
-  .sidebarnav a:focus,
-  .sidebarnav a:active {
-    color: red;
-  }
-
-  a {
-    border-bottom: 0.1em solid #ccc;
-    -o-transition: all 100ms linear;
-    -moz-transition: all 100ms linear;
-    -webkit-transition: all 100ms linear;
-    transition: all 100ms linear;
-    color: #222;
-    text-decoration: none;
-  }
-
-  a:hover,
-  a:focus,
-  a:active {
-    border-color: #000;
-    color: #000;
-  }
-
+@media only screen and (min-width: 119em) {
   h2 {
     font-size: 1.5em;
     line-height: 0.2em;
@@ -670,9 +359,13 @@ dt {
   #hh,
   #rep,
   #cv {
-    background-color: #FFF;
+    background-color: #2B2B2B;
     color: #FFF;
     padding: 12em;
+  }
+
+  #hyb {
+    padding-bottom: 23.14em;
   }
 
   dl {
