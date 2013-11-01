@@ -80,24 +80,30 @@ h2 {
   display: none;
 }
 
-#wt {
+#wt,
+#char {
   background-color: #2b2b2b;
   color: #FFF;
   padding: 1em;
 }
 
-#titw {
+#titw,
+#lab {
   background-color: #eee;
   color: #2b2b2b;
   padding: 1em;
 }
 
 #is,
-#fat {
+#fat,
+#rep,
+#hh {
   background-color: #2b2b2b;
   color: #FFF;
   padding: 1em;
 }
+}
+
 
 dt {
   width: 80%;
@@ -206,16 +212,20 @@ dt {
     padding: 0.9;
   }
 
-  #wt {
+  #wt,
+  #char {
     padding: 1.5em;
   }
 
-  #titw {
+  #titw,
+  #lab {
     padding: 1.5em;
   }
 
   #is,
-  #fat {
+  #fat,
+  #rep,
+  #hh {
     padding: 1.5em;
   }
 
@@ -394,16 +404,20 @@ dt {
     color: red;
   }
 
-  #wt {
+  #wt,
+  #char {
     padding: 5em;
   }
 
-  #titw {
+  #titw,
+  #lab {
     padding: 5em;
   }
 
   #is,
-  #fat {
+  #fat,
+  #rep,
+  #hh {
     padding: 5em;
   }
 
@@ -437,16 +451,20 @@ dt {
     height: 850px;
   }
 
-  #wt {
+  #wt,
+  #char {
     padding: 8em;
   }
 
-  #titw {
+  #titw,
+  #lab {
     padding: 8em;
   }
 
   #is,
-  #fat {
+  #fat,
+  #rep,
+  #hh {
     padding: 8em;
   }
 
@@ -495,6 +513,10 @@ dt {
 
   .nav-secondary {
     width: 36%;
+  }
+
+  #lab {
+    padding: 6.7em;
   }
 }
 /* END 1440 */
@@ -595,9 +617,9 @@ dt {
   }
 
   #titw {
-    background-color: #000;
+    background-color: #eee;
     color: #2b2b2b;
-    padding: -10em;
+    padding: 12em;
   }
 
   #is,
