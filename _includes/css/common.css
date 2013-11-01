@@ -28,6 +28,29 @@ body {
   display: block;
 }
 
+.tiger-img {
+  width: 100%;
+  display: block;
+}
+
+.list-group {
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.list-group-item {
+  display: block;
+}
+
+.list-group-item-inline {
+  display: inline-block;
+}
+
+.right-padding {
+  padding-right: 1em;
+}
+
 /* 240 px */
 .grid-padding {
   padding-top: 10.5em;
@@ -108,6 +131,7 @@ h2 {
 dt {
   width: 80%;
 }
+
 /* END 240 px*/
 
 /* 400 PX*/

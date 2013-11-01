@@ -1,0 +1,11 @@
+<ul class="list-group">
+  {% for tiger in site.pages %}
+    {% if tiger.category == include.tigertype %}
+      <li class="list-group-item">
+        <img src="{{site.baseurl}}/img/{{tiger.thumb}}" alt="Photo of {{tiger.name}}" class="tiger-img">
+        <p class="tiger-name"><strong>{{tiger.name}}</strong></p>
+        <p>{{tiger.content}}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
