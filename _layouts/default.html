@@ -26,16 +26,22 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="{{site.baseurl}}/css/tigers.css" rel="stylesheet">
 </head>
-<body>
+<body id="top">
 
-<header class="banner">
+  <ul class="skiplinks">
+    <li><a href="#main">Skip to primary content</a></li> <!--add id's to the content-->
+    <li><a href="#complementary">Skip to secondary content</a></li>
+    <li><a href="#navigation">Skip to navigation</a></li>
+  </ul>
+
+<header class="banner" role="banner">
 {% include nav.html %}
 </header>
 
 {{content}}
 
 <div class="grid">
-<footer class="footer">
+<footer class="footer" role="contentinfo">
   <div class="unit unit-s-1 unit-m-1 unit-l-1-4">
     <p class="copyright">© 2013 Tigers.</p>
   </div>
@@ -47,6 +53,7 @@
         <li><a href="{{site.baseurl}}/about-tigers/">About  Tigers</a></li>
         <li><a href="{{site.baseurl}}/species/">Species</a></li>
         <li><a href="{{site.baseurl}}/tigers-and-humans/">  Tigers & Humans</a></li>
+        <li><a href="#top">Top</a>
       </ul>
     </nav>
   </div>
