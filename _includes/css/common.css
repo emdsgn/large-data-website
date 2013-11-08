@@ -86,7 +86,7 @@ h2 {
 #tot,
 #rwh {
   background-color: #1f0d06;
-  color: #9e3600;
+  color: #c9a879;
   padding: 1em;
 }
 
@@ -94,8 +94,8 @@ h2 {
 #lab,
 #es,
 #cd {
-  background-color: #592005;
-  color: #f9e0bb;
+  background-color: #c9a879;
+  color: #1f0d06;
   padding: 1em;
 }
 
@@ -103,8 +103,8 @@ h2 {
 #rep,
 #cv,
 #th {
-  background-color: #d7621a;
-  color: #1f0d06;
+  background-color: #1f0d06;
+  color: #c9a879;
   padding: 1em;
 }
 
@@ -113,7 +113,7 @@ h2 {
 #hyb,
 #ce {
   background-color: #c9a879;
-  color: #592005;
+  color: #1f0d06;
   padding: 1em;
 }
 
@@ -139,6 +139,14 @@ dd {
 
 /* 400 PX*/
 @media only screen and (min-width: 25em) {
+  .img-padding {
+    padding: 0 1em 0 1em;
+  }
+
+  .padding-top {
+    padding: 1em 0 1em 0;
+  }
+
   dl {
     overflow: hidden;
     margin-bottom: -3%;
@@ -150,21 +158,15 @@ dd {
   }
 
   dd {
-    width: 40%;
+    width: 55%;
     float: right;
   }
 }
 /* END 400*/
 
-/* 570 PX */
-@media only screen and (min-width: 35.62em) {
-
-}
-
-/* END 570 */
-
 /* 600 PX*/
 @media only screen and (min-width: 38em) {
+
   .s-img {
     display: none;
   }
@@ -198,20 +200,26 @@ dd {
     padding: 1.5em;
   }
 
+  #fat {
+    padding-bottom: 14.8em;
+  }
+
+  #rep {
+    padding-bottom: 20.71em;
+  }
+
+  #cv {
+    padding-bottom: 9.41em;
+  }
+
+  #th {
+    padding-bottom: 7.72em;
+  }
+
   dl {
     overflow: hidden;
     margin-bottom: -3%;
     padding-bottom: 4.9em;
-  }
-
-  dt {
-    width: 40%;
-    float: left;
-  }
-
-  dd {
-    width: 32%;
-    float: right;
   }
 
   .unit-s-1 {
@@ -221,46 +229,63 @@ dd {
   .grid {
     overflow: hidden;
   }
-
 }
 /* END 600*/
 
 /* 700 PX*/
 @media only screen and (min-width: 43.75em) {
+
   .banner {
     overflow: hidden;
     background-image: url(...img/tiger-fur.jpg);
+  }
+
+  #titw,
+  #es,
+  #cd,
+  #lab {
+    background-color: #FFF;
+  }
+
+  #fat {
+    padding-bottom: 5.2em;
+  }
+
+  #rep {
+    padding-bottom: 18em;
+  }
+
+  #cv {
+    padding-bottom: 8.91em;
+  }
+
+  #th {
+    padding-bottom: 10.1em;
   }
 
   dl {
     padding-bottom: 3.6em;
   }
 
-  .copyright {
+  dt {
+    width: 48%;
+  }
+
+  dd {
+    width: 51%;
   }
 }
 /*END 700*/
 
 /* 850 px*/
 @media only screen and (min-width: 53.125em) {
+
   .img-s-1 {
     display: none;
   }
 
   .img-l-1 {
     display: block;
-  }
-
-  dl {
-    padding-bottom: 5.1em;
-  }
-}
-/* END 850*/
-
-/* 930 PX*/
-@media only screen and (min-width: 58.12em) {
-  .img-padding {
-    padding: 0 1em 0 1em;
   }
 
   #wt,
@@ -289,19 +314,48 @@ dd {
   }
 
   #fat {
-    padding-bottom: 8.42em;
+    padding-bottom: 7.1em;
   }
 
-  #hh {
+  #rep {
     padding-bottom: 15.71em;
   }
 
   #cv {
-    padding-bottom: 3.53em;
+    padding-bottom: 7.05em;
   }
 
   #th {
-    padding-bottom: 6.9em;
+    padding-bottom: 5.1em;
+  }
+
+  dl {
+    padding-bottom: 5.1em;
+  }
+
+  dd {
+    width: 52%;
+  }
+}
+/* END 850*/
+
+/* 930 PX*/
+@media only screen and (min-width: 58.12em) {
+
+  #fat {
+    padding-bottom: 7.1em;
+  }
+
+  #cv {
+    padding-bottom: 3.7em;
+  }
+
+  #rep {
+    padding-bottom: 13em;
+  }
+
+  #th {
+    padding-bottom: 6.5em;
   }
 
   dl {
@@ -309,11 +363,7 @@ dd {
   }
 
   dd {
-    width: 55%;
-  }
-
-  .padding-top {
-    padding: 1em 0 1em 0;
+    width: 52%;
   }
 
   footer {
@@ -354,7 +404,7 @@ dd {
   }
 
   #fat {
-    padding-bottom: 10.1em;
+    padding-bottom: 11.42em;
   }
 
   #hh {
@@ -362,11 +412,11 @@ dd {
   }
 
   #cv {
-    padding-bottom: 8.3em;
+    padding-bottom: 9.7em;
   }
 
   #ce {
-    padding-bottom: 8.4em;
+    padding-bottom: 7.4em;
   }
 
   dl {
@@ -374,7 +424,7 @@ dd {
   }
 
   dd {
-    width: 55%;
+    width: 52%;
   }
 
   .padding-top {
@@ -425,11 +475,11 @@ dd {
   }
 
   #hh {
-    padding-bottom: 24.5em;
+    padding-bottom: 25.9em;
   }
 
   #cv {
-    padding-bottom: 11.91em;
+    padding-bottom: 10.7em;
   }
 
   #th {
@@ -437,7 +487,7 @@ dd {
   }
 
   #ce {
-    padding-bottom: 10.72em;
+    padding-bottom: 12.5em;
   }
 
   dl {
@@ -503,7 +553,7 @@ dd {
   }
 
   #fat {
-    padding-bottom: 15.5em;
+    padding-bottom: 14.2em;
   }
 
   #hh {
@@ -511,11 +561,11 @@ dd {
   }
 
   #cv {
-    padding-bottom: 14.2em;
+    padding-bottom: 12.91em;
   }
 
   #ce {
-    padding-bottom: 21.4em;
+    padding-bottom: 26.1em;
   }
 }
 /* END 1440 */
@@ -568,7 +618,7 @@ dd {
   }
 
   #ce {
-    padding-bottom: 19.5em;
+    padding-bottom: 17.1em;
   }
 
   dl {
