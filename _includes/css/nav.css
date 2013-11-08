@@ -160,7 +160,7 @@ a:focus {
 
   .sidebar {
     display: block;
-    background-color: #c9a879;
+    background-color: rgba(0,0,0,0.7);
     position: fixed;
     padding: 1em;
     margin-top: 5%;
@@ -178,13 +178,13 @@ a:focus {
 
   .sidebarnav a {
     text-decoration: none;
-    color: #1f0d06;
+    color: #c9a879;
   }
 
   .sidebarnav a:hover,
   .sidebarnav a:focus,
   .sidebarnav a:active {
-    color: red;
+    color: #FFF;
   }
 }
 /* END 1050*/
@@ -219,6 +219,23 @@ a:focus {
     padding-left: 1.5em;
   }
 
+  a {
+    border-bottom: 0.1em solid #ccc;
+    -o-transition: all 100ms linear;
+    -moz-transition: all 100ms linear;
+    -webkit-transition: all 100ms linear;
+    transition: all 100ms linear;
+    color: #222;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    border-color: #FFF;
+    color: #000;
+  }
+
   .sidebar {
     position: fixed;
     display: block;
@@ -235,22 +252,6 @@ a:focus {
   }
 
   .sidebarnav a {
-    text-decoration: none;
-  }
-
-  .sidebarnav a:hover,
-  .sidebarnav a:focus,
-  .sidebarnav a:active {
-    color: red;
-  }
-
-  a {
-    border-bottom: 0.1em solid #red;
-    -o-transition: all 100ms linear;
-    -moz-transition: all 100ms linear;
-    -webkit-transition: all 100ms linear;
-    transition: all 100ms linear;
-    color: #222;
     text-decoration: none;
   }
 
