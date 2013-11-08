@@ -259,18 +259,75 @@ dd {
 
 /* 930 PX*/
 @media only screen and (min-width: 58.12em) {
+  .img-padding {
+    padding: 0 1em 0 1em;
+  }
+
+  #wt,
+  #char,
+  #tot,
+  #rwh {
+    padding: 2em;
+  }
+
+  #titw,
+  #lab,
+  #es,
+  #cd {
+    padding: 2em;
+  }
+
+  #is,
+  #fat,
+  #rep,
+  #hh,
+  #cv,
+  #hyb,
+  #th,
+  #ce {
+    padding: 2em;
+  }
+
+  #fat {
+    padding-bottom: 8.42em;
+  }
+
+  #hh {
+    padding-bottom: 15.71em;
+  }
+
+  #cv {
+    padding-bottom: 3.53em;
+  }
+
+  #th {
+    padding-bottom: 6.9em;
+  }
+
   dl {
     padding-bottom: 2.4em;
   }
 
   dd {
-    width: 50%;
+    width: 55%;
+  }
+
+  .padding-top {
+    padding: 1em 0 1em 0;
+  }
+
+  footer {
+    padding-top: 1em;
   }
 }
 /* END 930*/
 
 /* 1050 PX*/
 @media only screen and (min-width: 65.62em) {
+  .img-padding {
+    padding: 0 0.5em 0 0.5em;
+  }
+
   #wt,
   #char,
   #tot,
@@ -294,6 +351,22 @@ dd {
   #th,
   #ce {
     padding: 5em;
+  }
+
+  #fat {
+    padding-bottom: 10.1em;
+  }
+
+  #hh {
+    padding-bottom: 21.5em;
+  }
+
+  #cv {
+    padding-bottom: 8.3em;
+  }
+
+  #ce {
+    padding-bottom: 8.4em;
   }
 
   dl {
@@ -301,13 +374,28 @@ dd {
   }
 
   dd {
-    width: 45%;
+    width: 55%;
+  }
+
+  .padding-top {
+    padding: 1em 0 1em 0;
+  }
+
+  footer {
+    padding-top: 0;
+  }
+
+  .copyright {
+    text-align: left;
+    font-size: 1em;
+    padding-left: 1em;
   }
 }
 /* END 1050*/
 
 /* 1150 PX*/
 @media only screen and (min-width: 71.87em) {
+
   #wt,
   #char,
   #tot,
@@ -316,8 +404,8 @@ dd {
   }
 
   #titw,
-  #lab,
   #es,
+  #lab,
   #cd {
     padding: 8em;
   }
@@ -328,9 +416,28 @@ dd {
   #hh,
   #cv,
   #hyb,
-  #th,
   #ce {
     padding: 8em;
+  }
+
+  #fat {
+    padding-bottom: 13.1em;
+  }
+
+  #hh {
+    padding-bottom: 24.5em;
+  }
+
+  #cv {
+    padding-bottom: 11.91em;
+  }
+
+  #th {
+    padding: 7em;
+  }
+
+  #ce {
+    padding-bottom: 10.72em;
   }
 
   dl {
@@ -342,7 +449,11 @@ dd {
   }
 
   dd {
-    width: 39%;
+    width: 52%;
+  }
+
+  .padding-top {
+    padding: 1em 0 1em 0;
   }
 }
 
@@ -350,6 +461,7 @@ dd {
 
 /* 1440 (17" MACBOOK) */
 @media only screen and (min-width: 89.37em) {
+
   h1 {
     font-size: 2em;
   }
@@ -358,8 +470,52 @@ dd {
     margin-bottom: -11.5%;
   }
 
-  #lab {
-    padding: 6.7em;
+  dt {
+    width: 48%;
+  }
+
+  dd {
+    width: 52%;
+  }
+
+  #wt,
+  #char,
+  #tot,
+  #rwh {
+    padding: 10em;
+  }
+
+  #titw,
+  #es,
+  #lab,
+  #cd {
+    padding: 10em;
+  }
+
+  #is,
+  #fat,
+  #rep,
+  #hh,
+  #hyb,
+  #th,
+  #ce {
+    padding: 10em;
+  }
+
+  #fat {
+    padding-bottom: 15.5em;
+  }
+
+  #hh {
+    padding-bottom: 23.75em;
+  }
+
+  #cv {
+    padding-bottom: 14.2em;
+  }
+
+  #ce {
+    padding-bottom: 21.4em;
   }
 }
 /* END 1440 */
@@ -380,6 +536,7 @@ dd {
 
   #titw,
   #es,
+  #lab,
   #cd {
     padding: 12em;
   }
@@ -395,7 +552,7 @@ dd {
   }
 
   #fat {
-    padding-bottom: 17.8em;
+    padding-bottom: 24.2em;
   }
 
   #char {
@@ -407,7 +564,11 @@ dd {
   }
 
   #hyb {
-    padding-bottom: 23.14em;
+    padding-bottom: 16em;
+  }
+
+  #ce {
+    padding-bottom: 19.5em;
   }
 
   dl {
@@ -423,13 +584,5 @@ dd {
     float: right;
     width: 63%;
   }
-
-  .copyright {
-  }
-
-  .footer {
-    font-size: 0.875em;
-  }
-
 }
 /* END FULL SCREEN IMAC */

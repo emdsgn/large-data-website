@@ -3,8 +3,10 @@
     {% if tiger.category == include.tigertype %}
       <li class="list-group-item">
         <img src="{{site.baseurl}}/img/{{tiger.thumb}}" alt="Photo of {{tiger.name}}" class="tiger-img">
-        <p class="tiger-name"><strong>{{tiger.name}}</strong></p>
-        <p>{{tiger.content}}</p>
+        <div class="padding-top">
+          <p class="tiger-name"><strong>{{tiger.name}}</strong></p>
+          <p>{{tiger.content}}</p>
+        </div>
       </li>
     {% endif %}
   {% endfor %}

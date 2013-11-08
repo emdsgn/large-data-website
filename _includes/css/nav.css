@@ -17,7 +17,6 @@
 .nav-secondary li {
   display: inline-block;
   padding: 0.5em;
-  font-size: 0.7em;
 }
 
 a {
@@ -47,12 +46,12 @@ a:active {
   position: absolute;
   width: 100%;
   z-index: 3000;
-  
-  
+
+
   font-size: 1.25rem;
   font-weight: bold;
   list-style-type: none;
-  
+
 }
 
 .skiplinks a,
@@ -61,9 +60,9 @@ a:active {
   padding: 0.5em 0.75em;
   position:absolute;
   top: -10em;
-  
+
   background-color: #000;
-  
+
   color: #fff;
   text-decoration: none;
 }
@@ -81,7 +80,7 @@ a:visited {
 a:hover,
 a:active {
   outline: none; /*removes the keyboard selection highlight  */
-  
+
 }
 
 a:focus {
@@ -132,11 +131,6 @@ a:focus {
     float: right;
   }
 
-  .nav-secondary {
-    float: right;
-    width: 80%;
-  }
-
   .nav-secondary li {
     padding: 0;
     padding-right: 1em;
@@ -147,22 +141,23 @@ a:focus {
 
 /* 850 px*/
 @media only screen and (min-width: 53.125em) {
-  .nav-secondary {
-    width: 60%;
-  }
 }
 /* END 850*/
 
 /* 930 PX*/
 @media only screen and (min-width: 58.12em) {
-  .nav-secondary {
-    width: 55%;
-  }
+
 }
 /* END 930*/
 
 /* 1050 PX*/
 @media only screen and (min-width: 65.62em) {
+  .nav-secondary {
+    text-align: right;
+    padding: 0.5em;
+    padding-right: 0em;
+  }
+
   .sidebar {
     display: block;
     background-color: #c9a879;
@@ -191,28 +186,17 @@ a:focus {
   .sidebarnav a:active {
     color: red;
   }
-
-  .nav-secondary {
-    width: 48%;
-  }
 }
 /* END 1050*/
 
 /* 1150 PX*/
 @media only screen and (min-width: 71.87em) {
   .nav-secondary {
-    width: 48%;
+    padding-right: 1em;
   }
 }
 
 /* END 1150 */
-
-/* 1440 (17" MACBOOK) */
-@media only screen and (min-width: 89.37em) {
-  .nav-secondary {
-  }
-}
-/* END 1440 */
 
 /* FULL SCREEN IMAC */
 @media only screen and (min-width: 119em) {
@@ -228,11 +212,6 @@ a:focus {
     display: inline-block;
     padding: 1em;
     text-transform: uppercase;
-  }
-
-  .nav-secondary {
-    width: 25%;
-    float: right;
   }
 
   .nav-secondary li {

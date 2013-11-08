@@ -22,6 +22,10 @@
   padding: 0 auto;
 }
 
+.unit-full {
+  display: none;
+}
+
 @media only screen and (max-width: 38em) {
   .unit-s-hidden {
     display: none;
@@ -69,6 +73,10 @@
   .unit-m-3-4 {
     width: 75%;
   }
+
+  .unit-m-4-5 {
+    width: 49%;
+  }
 }
 @media only screen and (min-width: 60em) {
   .unit-l-hidden {
@@ -107,5 +115,16 @@
   }
   .unit-l-4-0 {
     width: 35%;
+  }
+
+}
+
+@media only screen and (min-width: 65.62em) {
+  .unit-l-4-9 {
+    display: none;
+  }
+
+  .unit-full {
+    display: block;
   }
 }
