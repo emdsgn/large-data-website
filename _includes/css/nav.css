@@ -114,7 +114,7 @@ a:focus {
   .nav-secondary li {
     display: inline-block;
     font-size: 1em;
-    padding: 0.9;
+    padding: 0.9em;
   }
 }
 /* END 600*/
