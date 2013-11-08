@@ -28,6 +28,12 @@ body {
   display: block;
 }
 
+.logo-img {
+  width: 20.5%;
+  display: none;
+  padding: 1em;
+}
+
 .tiger-img {
   width: 100%;
   display: block;
@@ -173,6 +179,12 @@ dd {
 
   .l-img {
     display: block;
+  }
+
+  .logo-img {
+    width: 20.5%;
+    display: block;
+    padding: 1em;
   }
 
   #wt,

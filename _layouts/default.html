@@ -34,8 +34,14 @@
     <li><a href="#navigation">Skip to navigation</a></li>
   </ul>
 
-<header class="banner" role="banner" id="navigation">
-{% include nav.html %}
+<div class="grid">
+  <header class="banner" role="banner" id="navigation">
+    <div class="unit unit-s-1 unit-m-1 unit-l-1-2">
+      <img src="{{site.baseurl}}/img/tiger-logo.svg" class="logo-img" alt="">
+    </div>
+    <div class="unit unit-s-1 unit-m-1 unit-l-1-2">
+      {% include nav.html %}
+    </div>
 </header>
 
 {{content}}

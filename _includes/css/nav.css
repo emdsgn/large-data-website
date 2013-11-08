@@ -102,12 +102,6 @@ a:focus {
 }
 /* END 400*/
 
-/* 570 PX */
-@media only screen and (min-width: 35.62em) {
-}
-
-/* END 570 */
-
 /* 600 PX*/
 @media only screen and (min-width: 38em) {
   .nav li {
@@ -131,6 +125,14 @@ a:focus {
     float: right;
   }
 
+  .nav {
+   padding: 0.2em;
+  }
+
+  .nav li {
+    font-size: 1.2em;
+  }
+
   .nav-secondary li {
     padding: 0;
     padding-right: 1em;
@@ -138,17 +140,6 @@ a:focus {
   }
 }
 /*END 700*/
-
-/* 850 px*/
-@media only screen and (min-width: 53.125em) {
-}
-/* END 850*/
-
-/* 930 PX*/
-@media only screen and (min-width: 58.12em) {
-
-}
-/* END 930*/
 
 /* 1050 PX*/
 @media only screen and (min-width: 65.62em) {
@@ -169,6 +160,10 @@ a:focus {
   .sidebar-ul {
     padding-left: 0;
     margin: 0;
+  }
+
+  .siderbarnav {
+   padding: 0em;
   }
 
   .sidebarnav li {
