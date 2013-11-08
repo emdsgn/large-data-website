@@ -9,7 +9,7 @@
 }
 
 .nav-secondary {
-  padding-left: 0em;
+  padding-left: 0;
   padding-bottom: 0.5em;
   text-align: center;
 }
@@ -142,7 +142,7 @@ a:focus {
   .nav-secondary {
     text-align: right;
     padding: 0.5em;
-    padding-right: 0em;
+    padding-right: 0;
   }
 
   .sidebar {
@@ -159,7 +159,7 @@ a:focus {
   }
 
   .siderbarnav {
-   padding: 0em;
+   padding: 0;
   }
 
   .sidebarnav li {
