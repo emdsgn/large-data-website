@@ -108,13 +108,14 @@ a:focus {
     display: inline-block;
     color: #FFF;
     font-size: 1em;
-    padding: 0.9em;
+    padding: 1em;
   }
 
   .nav-secondary li {
     display: inline-block;
     font-size: 1em;
     padding: 0.9em;
+    padding-bottom: 0.5em;
   }
 }
 /* END 600*/
@@ -122,7 +123,12 @@ a:focus {
 /* 700 PX*/
 @media only screen and (min-width: 43.75em) {
   .nav-wrapper {
-    float: right;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .nav {
+    padding: 0;
   }
 
   .nav li {
@@ -139,6 +145,7 @@ a:focus {
 
 /* 1050 PX*/
 @media only screen and (min-width: 65.62em) {
+
   .nav-secondary {
     text-align: right;
     padding: 0.5em;

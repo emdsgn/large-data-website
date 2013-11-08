@@ -28,6 +28,11 @@ body {
   display: block;
 }
 
+.logo-img {
+  width: 10%;
+  display: none;
+}
+
 .tiger-img {
   width: 100%;
   display: block;
@@ -166,7 +171,6 @@ dd {
 
 /* 600 PX*/
 @media only screen and (min-width: 38em) {
-
   .s-img {
     display: none;
   }
@@ -234,6 +238,12 @@ dd {
 
 /* 700 PX*/
 @media only screen and (min-width: 43.75em) {
+  .logo-img {
+    width: 40%;
+    display: block;
+    padding: 1em;
+    margin: 0 auto;
+  }
 
   .banner {
     overflow: hidden;
@@ -376,6 +386,13 @@ dd {
 @media only screen and (min-width: 65.62em) {
   .img-padding {
     padding: 0 0.5em 0 0.5em;
+  }
+
+  .logo-img {
+    width: 40%;
+    display: block;
+    padding: 1em;
+    margin: 0 -77px 0 -77px;
   }
 
   #wt,
