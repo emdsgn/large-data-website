@@ -52,9 +52,6 @@ body {
   display: inline-block;
 }
 
-.right-padding {
-}
-
 ul {
   margin: 0 0 0;
 }
@@ -138,6 +135,16 @@ dd {
   text-transform: uppercase;
   padding: 0.5em 0 0.5em 0;
   font-family: sans-serif;
+}
+
+.errorh2 {
+  color: #c9a879;
+  font-size: 2em;
+}
+
+.errorinfo {
+  color: #FFF;
+  line-height: 1.8em;
 }
 
 /* END 240 px*/
