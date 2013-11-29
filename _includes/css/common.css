@@ -19,8 +19,9 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  max-width: 700px;
 }
 
 .flex-img {
@@ -148,6 +149,12 @@ dd {
 }
 
 /* END 240 px*/
+
+@media only screen and (min-width: 200px) {
+  body {
+    max-width: none;
+  }
+}
 
 /* 400 PX*/
 @media only screen and (min-width: 25em) {
