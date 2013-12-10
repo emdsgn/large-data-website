@@ -6,20 +6,20 @@
   <title>{% if page.title %}{{page.title}}{%endif%}{% if page.title == null %}{% endif %}</title>
   <!-- Facebook -->
   <meta property="og:type" content="artilce">
-  <meta property="og:title" content="Say hello to Richard Parker.">
+  <meta property="og:title" content="Are tigers really mean?">
   <meta property="og:url" content="http://emdsgn.github.io/large-data-website">
   <meta property="og:image" content="http://domain.com/img/thing.jpg">
   <!-- Image size: min. 200x200, prefered 1500x1500 -->
   <meta property="og:site_name" content="Tigers">
-  <meta property="og:description" content="Come follow the history of Richard Parker, a tiger.">
+  <meta property="og:description" content="Come learn the habitats of tigers.">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary">
-  <meta property="twitter:title" content="Say hello to Richard Parker.">
+  <meta property="twitter:title" content="Are tigers really mean?">
   <meta property="twitter:url" content="http://emdsgn.github.com/large-data-website">
   <meta property="twitter:image" content="http://domain.com/img/thing.jpg">
   <!-- Image size: min. 120x120 -->
-  <meta property="twitter:description" content="Come follow the history of Richard Parker, a tiger.">
+  <meta property="twitter:description" content="Come learn the habitats of tigers.">
 
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
@@ -37,11 +37,11 @@
 
 <div class="grid">
   <header class="banner" role="banner">
-    <div class="unit unit-s-1 unit-m-1 unit-l2-1-4 unit-i-1">
+    <div class="unit unit-m-1-3 unit-l-1-3 unit-i-1">
       <img src="{{site.baseurl}}/img/tiger-logo.svg" class="logo-img" alt="">
     </div>
 
-    <div class="unit unit-s-1 unit-m-1 unit-l2-3-4 unit-i-1">
+    <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 unit-i-1">
       {% include nav.html %}
     </div>
   </header>
@@ -75,7 +75,7 @@ if (!Modernizr.inlinesvg) {
     var imgs = document.getElementsByTagName('img')
       , totalImgs = imgs.length
       , i = 0
- 
+
       for (i = 0; i < totalImgs; i++) {
         imgs[i].src = imgs[i].src.replace(/svg$/, 'png')
       }

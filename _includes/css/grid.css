@@ -49,9 +49,8 @@
   .unit-s-3-4 {
     width: 75%;
   }
-
   .unit-i-1 {
-    display: none;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 38em) and (max-width: 60em) {
@@ -77,26 +76,14 @@
   .unit-m-3-4 {
     width: 75%;
   }
-
   .unit-m-4-5 {
     width: 49%;
   }
-
-  .unit-l2-1-4 {
-    display: none;
-    width: 25%;
-  }
-
-  .unit-l2-3-4 {
-    display: none;
-    width: 75%;
-  }
-
   .unit-i-1 {
-    display: block;
     width: 100%;
   }
 }
+
 @media only screen and (min-width: 60em) {
   .unit-l-hidden {
     display: none;
@@ -139,14 +126,6 @@
   }
   .unit-l-4-0 {
     width: 35%;
-  }
-
-  .unit-l2-1-4 {
-    width: 25%;
-  }
-
-  .unit-l2-3-4 {
-    width: 75%;
   }
 
 }

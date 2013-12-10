@@ -37,11 +37,11 @@
 
 <div class="grid">
   <header class="banner" role="banner">
-    <div class="unit unit-s-1 unit-m-1 unit-l2-1-4 unit-i-1">
-      <img src="{{site.baseurl}}/img/tiger-logo.svg" class="logo-img" alt="">
+    <div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 unit-i-1">
+      <img src="{{site.baseurl}}/img/tiger-logo.svg" class="logo-img" alt="Tigers">
     </div>
 
-    <div class="unit unit-s-1 unit-m-1 unit-l2-3-4 unit-i-1">
+    <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 unit-i-1">
       {% include nav.html %}
     </div>
   </header>
@@ -75,7 +75,7 @@ if (!Modernizr.inlinesvg) {
     var imgs = document.getElementsByTagName('img')
       , totalImgs = imgs.length
       , i = 0
- 
+
       for (i = 0; i < totalImgs; i++) {
         imgs[i].src = imgs[i].src.replace(/svg$/, 'png')
       }

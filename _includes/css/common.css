@@ -30,8 +30,10 @@ body {
 }
 
 .logo-img {
-  width: 10%;
-  display: none;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding: 2em 0 1em 0;
 }
 
 .tiger-img {
@@ -127,6 +129,10 @@ dd {
 
 .tiger-name {
   margin: 0 auto;
+}
+
+.bg-color {
+  background-color: #c9a879;
 }
 
 .copyright {
@@ -360,6 +366,12 @@ dd {
 
 /* 930 PX*/
 @media only screen and (min-width: 58.12em) {
+  .logo-img {
+    width: 54%;
+    display: block;
+    padding: 1em;
+    margin: 0 auto;
+  }
 
   #fat {
     padding-bottom: 7.1em;
@@ -393,15 +405,15 @@ dd {
 
 /* 1050 PX*/
 @media only screen and (min-width: 65.62em) {
+  .logo-img {
+    float: left;
+  }
   .img-padding {
     padding: 0 0.5em 0 0.5em;
   }
 
   .logo-img {
-    width: 40%;
-    display: block;
-    padding: 1em;
-    margin: 0 -77px 0 -77px;
+    width: 49%;
   }
 
   #wt,
@@ -471,6 +483,9 @@ dd {
 
 /* 1150 PX*/
 @media only screen and (min-width: 71.87em) {
+  .logo-img {
+    width: 45%;
+  }
 
   #wt,
   #char,
@@ -537,6 +552,9 @@ dd {
 
 /* 1440 (17" MACBOOK) */
 @media only screen and (min-width: 89.37em) {
+  .logo-img {
+    width: 36%;
+  }
 
   h1 {
     font-size: 2em;
@@ -598,6 +616,10 @@ dd {
 
 /* FULL SCREEN IMAC */
 @media only screen and (min-width: 119em) {
+  .logo-img {
+    width: 27%;
+  }
+
   h2 {
     font-size: 1.5em;
     line-height: 0.2em;
